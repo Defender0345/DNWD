@@ -1,4 +1,4 @@
-# template1_front
+# myPortfolio_front
 
 ## Project setup
 ```
