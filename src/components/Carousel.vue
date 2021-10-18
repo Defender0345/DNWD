@@ -43,7 +43,7 @@ export default {
       top: calc(50% - 20px);
       background-color: rgba(0, 0, 0, 0);
       border: none;
-      color: $accent;
+      color: $accent-color;
 
       .fas {
          font-size: 40px;
