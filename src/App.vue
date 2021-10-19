@@ -21,4 +21,10 @@ export default {
 
 <style lang="scss">
 @import '@/assets/_shared.scss';
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Nunito Sans', sans-serif;
+}
 </style>
