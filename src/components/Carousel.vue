@@ -41,7 +41,7 @@ export default {
       height: 40px;
       width: 50px;
       top: calc(50% - 20px);
-      background-color: rgba(0, 0, 0, 0);
+      background-color: $dark-color;
       border: none;
       color: $accent-color;
 
@@ -52,7 +52,7 @@ export default {
       &:hover,
       &:focus {
          cursor: pointer;
-         color: black;
+         color: $dark-color;
          outline: none;
       }
    }
