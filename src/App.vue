@@ -1,6 +1,6 @@
 <template>
    <div>
-      <Navbar />
+      <Navbar class="nav" />
       <router-view />
       <Footer />
    </div>
@@ -26,5 +26,9 @@ export default {
    margin: 0;
    padding: 0;
    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav {
+   position: static;
 }
 </style>

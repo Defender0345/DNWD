@@ -27,7 +27,7 @@ export default {
 
    data() {
       return {
-         img: [require('@/assets/Images/logo.webp')],
+         img: [require('@/assets/Images/logo-white.png')],
       };
    },
 };
@@ -54,8 +54,7 @@ nav {
       margin: auto;
 
       .logo {
-         height: 150px;
-         max-height: 15vh;
+         padding: 10px;
       }
 
       .nav {
