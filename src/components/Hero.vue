@@ -2,22 +2,22 @@
    <div class="hero" :style="cssProps">
       <div class="content">
          <div class="title">
-            <p>&lt;-- Making the internet available for everyone! --&gt;</p>
+            <p>&lt;-- Making websites available for everyone! --&gt;</p>
             <span>POWERFUL &amp; AFFORDABLE</span>
             <span>DIGITAL SOLUTIONS</span>
          </div>
          <div class="icons">
             <div class="card">
                <i class="fas fa-server"></i>
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p>OUR OWN DEDICATED SERVERS</p>
             </div>
             <div class="card">
                <i class="fas fa-network-wired"></i>
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p>CONNECTING YOUR WEBSITE TO EVERYONE</p>
             </div>
             <div class="card">
                <i class="fas fa-tachometer-alt"></i>
-               <p>Lorem ipsum dolor sit amet.</p>
+               <p>EMPHASIZING LOADING SPEED ON YOUR WEBSITE</p>
             </div>
          </div>
       </div>
@@ -88,7 +88,6 @@ export default {
             justify-content: space-around;
             align-items: center;
             border: darkgray 1px solid;
-            // box-shadow: 2.5px 5px lightgray;
             padding: 20px;
             margin: 20px;
             height: 200px;
@@ -97,6 +96,7 @@ export default {
             &:hover {
                transition: all 0.3s linear;
                background-color: $primary-color;
+               border: $secondary-color 1px solid;
 
                i {
                   color: white;

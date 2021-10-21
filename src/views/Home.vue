@@ -1,6 +1,18 @@
 <template>
    <div>
       <Hero />
+      <section>
+         <div class="aboutUs" :style="cssProps">
+            <div class="content">
+               <span>&lt;-- THIS IS DND SOFTWARE --&gt;</span>
+               <h2>
+                  OUR GOAL IS TO PROVIDE WEB SERVICES FOR LARGE AND SMALL
+                  COMPANIES AT A FRACTION OF THE PRICE
+               </h2>
+            </div>
+         </div>
+         <div></div>
+      </section>
       <!-- <carousel @next="next" @prev="prev" class="carousel">
          <carousel-slide
             v-for="(slide, index) in slides"
@@ -31,6 +43,9 @@ export default {
 
    data() {
       return {
+         cssProps: {
+            backgroundImage: `url(${require('@/assets/Images/aboutUs.webp')})`,
+         },
          // Carousel Start
          // slides: [
          //    require('@/assets/Images/carousel/carousel1.webp'),
@@ -78,4 +93,38 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/_shared.scss';
+
+.aboutUs {
+   margin: 5em auto;
+   height: 750px;
+   width: 1000px;
+   position: relative;
+   color: $light-100-color;
+   background: no-repeat center center/cover;
+
+   .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 20%;
+      padding: 0 20px;
+
+      span {
+         color: $purple-400-color;
+         font-size: 0.8em;
+         font-weight: bold;
+         letter-spacing: 0.5px;
+      }
+
+      h2 {
+         color: black;
+         font-size: 2em;
+         font-weight: bold;
+         letter-spacing: 0.5px;
+         margin: 20px 0 10px;
+      }
+   }
+}
 </style>
