@@ -38,6 +38,8 @@ export default {
 @import '@/assets/_shared.scss';
 
 nav {
+   position: fixed;
+   z-index: 999;
    width: 100%;
    margin: 0;
    padding: 0;

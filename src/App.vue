@@ -28,7 +28,7 @@ export default {
    font-family: 'Nunito Sans', sans-serif;
 }
 
-.nav {
-   position: static;
-}
+// .nav {
+//    position: fixed;
+// }
 </style>

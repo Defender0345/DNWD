@@ -6,13 +6,38 @@
             <div class="content">
                <span>&lt;-- THIS IS DND SOFTWARE --&gt;</span>
                <h2>
-                  OUR GOAL IS TO PROVIDE WEB SERVICES FOR LARGE AND SMALL
-                  COMPANIES AT A FRACTION OF THE PRICE
+                  PROVIDE WEB SERVICES FOR LARGE AND SMALL COMPANIES AT A
+                  FRACTION OF THE PRICE
                </h2>
             </div>
          </div>
-         <div></div>
+         <div class="a_cards">
+            <div class="card">
+               <i class="fas fa-check-circle" style="color: #7040b1"></i>
+               <div>
+                  <p class="header">Heading</p>
+                  <p class="content">Lorem, ipsum dolor.</p>
+               </div>
+            </div>
+            <div class="card">
+               <i class="fas fa-check-circle" style="color: #43bbfe"></i>
+               <div>
+                  <p class="header">Heading</p>
+                  <p class="content">Lorem, ipsum dolor.</p>
+               </div>
+            </div>
+            <div class="card">
+               <i class="fas fa-check-circle" style="color: #201f3b"></i>
+               <div>
+                  <p class="header">Heading</p>
+                  <p class="content">Lorem, ipsum dolor.</p>
+               </div>
+            </div>
+         </div>
       </section>
+      <Goal />
+      <TechStack />
+      <Services />
       <!-- <carousel @next="next" @prev="prev" class="carousel">
          <carousel-slide
             v-for="(slide, index) in slides"
@@ -31,12 +56,18 @@
 // import Carousel from '@/components/Carousel.vue';
 // import CarouselSlide from '@/components/CarouselSlide.vue';
 import Hero from '@/components/Hero.vue';
+import Goal from '@/components/Goal.vue';
+import TechStack from '@/components/TechStack.vue';
+import Services from '@/components/Services.vue';
 
 export default {
    name: 'Home',
 
    components: {
       Hero,
+      Goal,
+      TechStack,
+      Services,
       // Carousel,
       // CarouselSlide,
    },
@@ -124,6 +155,37 @@ export default {
          font-weight: bold;
          letter-spacing: 0.5px;
          margin: 20px 0 10px;
+      }
+   }
+}
+
+.a_cards {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 2em 0;
+
+   .card {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border: $translucent-background 1px solid;
+      padding: 1em;
+      width: 250px;
+
+      i {
+         font-size: 40px;
+      }
+
+      div {
+         .header {
+            font-size: 1.5em;
+            font-weight: bold;
+         }
+
+         .content {
+            font-size: 1.2em;
+         }
       }
    }
 }
