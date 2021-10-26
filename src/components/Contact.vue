@@ -1,0 +1,122 @@
+<template>
+   <div class="contact">
+      <div class="details">
+         <div class="header">
+            <span>&lt;-- CONTACT DETAILS --&gt;</span>
+            <h2>Contact us</h2>
+            <p>
+               Send us an email or fill in the contact form anytime, we will
+               answer all enquiries within 24 hours on business days. We will be
+               happy to answer your questions.
+            </p>
+         </div>
+         <div class="cards">
+            <div class="card">
+               <i class="fas fa-globe-africa"></i>
+               <div>
+                  <p class="heading">Our Address:</p>
+                  <p class="address">Strand, Cape Town, Western Cape</p>
+               </div>
+            </div>
+            <div class="card">
+               <i class="far fa-envelope"></i>
+               <div>
+                  <p class="heading">Our Mailbox:</p>
+                  <p class="address">testemail@test.com</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <Form class="form" />
+   </div>
+</template>
+
+<script>
+import Form from '@/components/Form.vue';
+
+export default {
+   name: 'Contact',
+
+   components: {
+      Form,
+   },
+
+   data() {
+      return {};
+   },
+};
+</script>
+
+<style lang="scss" scoped>
+@import '@/assets/_shared.scss';
+
+.contact {
+   display: flex;
+   width: 100%;
+   margin: 4em 0;
+
+   .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+      margin: 0 auto;
+      .header {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 75%;
+
+         span {
+            color: $purple-400-color;
+            font-size: 0.8em;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+         }
+
+         h2 {
+            color: black;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin: 20px 0 10px;
+         }
+
+         p {
+            color: $purple-100-color;
+         }
+      }
+
+      .cards {
+         .card {
+            display: flex;
+            flex-direction: row;
+            margin: 2em 0;
+
+            i {
+               font-size: 40px;
+               margin-right: 1em;
+               color: $secondary-color;
+            }
+
+            div {
+               .heading {
+                  font-weight: bold;
+                  font-size: 20px;
+               }
+
+               .address {
+                  color: $purple-100-color;
+               }
+            }
+         }
+      }
+   }
+
+   .form {
+      width: 45%;
+   }
+}
+</style>

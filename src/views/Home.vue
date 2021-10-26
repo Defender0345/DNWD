@@ -38,6 +38,7 @@
       <Goal />
       <TechStack />
       <Services />
+      <Contact />
       <!-- <carousel @next="next" @prev="prev" class="carousel">
          <carousel-slide
             v-for="(slide, index) in slides"
@@ -59,6 +60,7 @@ import Hero from '@/components/Hero.vue';
 import Goal from '@/components/Goal.vue';
 import TechStack from '@/components/TechStack.vue';
 import Services from '@/components/Services.vue';
+import Contact from '@/components/Contact.vue';
 
 export default {
    name: 'Home',
@@ -68,6 +70,7 @@ export default {
       Goal,
       TechStack,
       Services,
+      Contact,
       // Carousel,
       // CarouselSlide,
    },
