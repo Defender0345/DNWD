@@ -93,7 +93,6 @@ export default {
     justify-content: flex-start;
 
     h2 {
-      text-align: left;
       color: white;
       font-size: 2em;
       font-weight: bold;
@@ -102,6 +101,7 @@ export default {
     }
 
     span {
+      text-align: center;
       color: white;
       font-size: 1em;
       font-weight: bold;
