@@ -34,7 +34,7 @@ footer {
   justify-content: center;
   align-items: center;
   background: $accent-color;
-  height: 25vh;
+  height: 30vh;
   padding: 2em 0 0 0;
 
   .socials {
@@ -57,6 +57,7 @@ footer {
 
   p {
     color: white;
+    padding: 1em;
   }
 }
 </style>

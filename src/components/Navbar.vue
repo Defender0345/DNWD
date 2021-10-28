@@ -8,6 +8,7 @@
         <a href="#">HOME</a>
         <a href="#">SERVICES</a>
         <a href="#">OUR GOAL</a>
+        <a href="#">PORTFOLIO</a>
         <a href="#">CONTACT US</a>
       </div>
       <div class="quickcontact">
@@ -111,6 +112,14 @@ nav {
         }
       }
     }
+  }
+}
+
+// Breakpoints 1300px, 1024px, 768px 568px, 400px
+
+@media (max-width: 1024px) {
+  .quickcontact {
+    display: none !important;
   }
 }
 </style>
