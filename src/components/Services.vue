@@ -85,7 +85,7 @@
         <ul>
           <li>3 Changes to your website monhtly</li>
           <li>Ensuring SEO Friendly</li>
-          <li>SSL Certificate if your website needs one</li>
+          <li>SSL Certificate</li>
           <li>Website Hosting</li>
           <li>Mobile first design</li>
         </ul>
@@ -132,7 +132,6 @@ export default {
     font-size: 0.8em;
     font-weight: bold;
     letter-spacing: 0.5px;
-    //  padding-top: 2em;
   }
 
   h2 {
@@ -148,10 +147,11 @@ export default {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 
     .card {
       width: 400px;
-      max-width: 25%;
+      // max-width: 25%;
       height: 700px;
       box-shadow: 5px 5px 10px rgb(70, 70, 70);
       color: white;
@@ -230,6 +230,23 @@ export default {
         .btn-dark {
           color: black;
           background-color: $purple-400-color;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .services {
+    .cards {
+      .card {
+        height: 750px;
+        margin: 1em;
+
+        .buttons {
+          a {
+            padding: 0.7em 1em;
+          }
         }
       }
     }

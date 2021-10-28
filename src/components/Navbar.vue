@@ -139,7 +139,7 @@ nav {
 
 // Breakpoints 1300px, 1024px, 768px 568px, 400px
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
   nav {
     .navbar {
       .quickcontact {
@@ -152,7 +152,7 @@ nav {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   nav {
     .navbar {
       position: relative;
@@ -170,7 +170,7 @@ nav {
         flex-direction: column;
         right: 0;
         top: 100%;
-        background: rgba(0, 0, 0, 0.5);
+        background: #151c38b0;
         padding: 2em;
         text-align: right;
         font-size: 1.5em;
@@ -180,6 +180,7 @@ nav {
           text-decoration: none;
           color: $light-100-color;
           width: 100%;
+          font-weight: bold;
         }
       }
 

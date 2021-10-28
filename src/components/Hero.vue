@@ -121,6 +121,64 @@ export default {
   }
 }
 
+@media (max-width: 1024px) {
+  .hero {
+    .content {
+      .title {
+        span {
+          font-size: 65px;
+        }
+        p {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
+  .hero {
+    .content {
+      .title {
+        span {
+          font-size: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .hero {
+    .content {
+      .icons {
+        .card {
+          height: 150px;
+          width: 100px;
+
+          i {
+            font-size: 30px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    .content {
+      .icons {
+        display: none;
+      }
+    }
+  }
 }
 </style>

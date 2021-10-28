@@ -108,7 +108,8 @@ export default {
 .aboutUs {
   margin: 5em auto;
   height: 750px;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   position: relative;
   color: $light-100-color;
   background: no-repeat center center/cover;
@@ -138,4 +139,16 @@ export default {
     }
   }
 }
+
+@media (max-width: 568px) {
+  .aboutUs {
+    display: none;
+  }
+}
+
+// @media (max-width: 768px) {
+//   .aboutUs {
+//     display: none;
+//   }
+// }
 </style>

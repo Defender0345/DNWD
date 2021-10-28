@@ -164,4 +164,24 @@ export default {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .form-container {
+    .form {
+      button {
+        width: 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    .form {
+      button {
+        width: 50%;
+      }
+    }
+  }
+}
 </style>

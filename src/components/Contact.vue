@@ -116,4 +116,20 @@ export default {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .details {
+      width: 100%;
+    }
+
+    .form {
+      width: 70%;
+    }
+  }
+}
 </style>
