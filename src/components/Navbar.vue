@@ -18,6 +18,16 @@
           <p>dylannel02@gmail.com</p>
         </div>
       </div>
+      <button class="mobilenav" @click="toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="mobnavmenu" v-if="active">
+        <a href="#">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">OUR GOAL</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT US</a>
+      </div>
     </div>
   </nav>
 </template>
@@ -26,10 +36,18 @@
 export default {
   name: 'Navbar',
 
+  components: {},
+
   data() {
     return {
+      active: false,
       img: [require('@/assets/Images/logo-white.webp')],
     };
+  },
+  methods: {
+    toggle() {
+      this.active = !this.active;
+    },
   },
 };
 </script>
@@ -55,6 +73,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+
+    .mobilenav {
+      display: none;
+    }
 
     .logo {
       padding: 10px;
@@ -118,8 +140,53 @@ nav {
 // Breakpoints 1300px, 1024px, 768px 568px, 400px
 
 @media (max-width: 1024px) {
-  .quickcontact {
-    display: none !important;
+  nav {
+    .navbar {
+      .quickcontact {
+        display: none;
+      }
+      .mobnavmenu {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    .navbar {
+      position: relative;
+      .mobilenav {
+        display: inline-block;
+        font-size: 2.5em;
+        color: $secondary-color;
+        background: $primary-color;
+        border: none;
+      }
+
+      .mobnavmenu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 2em;
+        text-align: right;
+        font-size: 1.5em;
+        line-height: 2em;
+
+        a {
+          text-decoration: none;
+          color: $light-100-color;
+          width: 100%;
+        }
+      }
+
+      .nav {
+        display: none;
+      }
+    }
   }
 }
 </style>
