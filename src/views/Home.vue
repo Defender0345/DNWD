@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <Hero />
     <section>
       <div class="aboutUs" :style="cssProps">
@@ -12,10 +12,10 @@
         </div>
       </div>
     </section>
-    <Goal />
+    <Goal id="goal" />
     <TechStack />
-    <Services />
-    <Contact />
+    <Services id="services" />
+    <Contact id="contact" />
     <!-- <carousel @next="next" @prev="prev" class="carousel">
          <carousel-slide
             v-for="(slide, index) in slides"

@@ -22,11 +22,11 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="mobnavmenu" v-if="active">
-        <a href="#">HOME</a>
-        <a href="#">SERVICES</a>
-        <a href="#">OUR GOAL</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">CONTACT US</a>
+        <a @click="toggle" href="/">HOME</a>
+        <a @click="toggle" href="/#services">SERVICES</a>
+        <a @click="toggle" href="/#goal">OUR GOAL</a>
+        <a @click="toggle" href="/portfolio">PORTFOLIO</a>
+        <a @click="toggle" href="/#contact">CONTACT US</a>
       </div>
     </div>
   </nav>
@@ -168,7 +168,8 @@ nav {
         position: absolute;
         display: flex;
         flex-direction: column;
-        right: 0;
+        right: -13%;
+        margin: 0;
         top: 100%;
         background: #151c38b0;
         padding: 2em;
