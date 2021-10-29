@@ -16,23 +16,10 @@
     <TechStack />
     <Services id="services" />
     <Contact id="contact" />
-    <!-- <carousel @next="next" @prev="prev" class="carousel">
-         <carousel-slide
-            v-for="(slide, index) in slides"
-            :key="slide"
-            :index="index"
-            :visibleSlide="visibleSlide"
-            :direction="direction"
-         >
-            <img :src="slide" alt="Images of Previous Hair done" />
-         </carousel-slide>
-      </carousel> -->
   </div>
 </template>
 
 <script>
-// import Carousel from '@/components/Carousel.vue';
-// import CarouselSlide from '@/components/CarouselSlide.vue';
 import Hero from '@/components/Hero.vue';
 import Goal from '@/components/Goal.vue';
 import TechStack from '@/components/TechStack.vue';
@@ -48,8 +35,6 @@ export default {
     TechStack,
     Services,
     Contact,
-    // Carousel,
-    // CarouselSlide,
   },
 
   data() {
@@ -57,47 +42,7 @@ export default {
       cssProps: {
         backgroundImage: `url(${require('@/assets/Images/aboutUs.webp')})`,
       },
-      // Carousel Start
-      // slides: [
-      //    require('@/assets/Images/carousel/carousel1.webp'),
-      //    require('@/assets/Images/carousel/carousel2.webp'),
-      //    require('@/assets/Images/carousel/carousel3.webp'),
-      //    require('@/assets/Images/carousel/carousel4.webp'),
-      //    require('@/assets/Images/carousel/carousel5.webp'),
-      // ],
-      // visibleSlide: 0,
-      // direction: 'left',
-      // Carousel End
     };
-  },
-
-  computed: {
-    // Carousel Start
-    // slidesLength() {
-    //    return this.slides.length;
-    // },
-    // Carousel End
-  },
-
-  methods: {
-    // Carousel Start
-    // next() {
-    //    if (this.visibleSlide >= this.slidesLength - 1) {
-    //       this.visibleSlide = 0;
-    //    } else {
-    //       this.visibleSlide++;
-    //    }
-    //    this.direction = 'left';
-    // },
-    // prev() {
-    //    if (this.visibleSlide <= 0) {
-    //       this.visibleSlide = this.slidesLength - 1;
-    //    } else {
-    //       this.visibleSlide--;
-    //    }
-    //    this.direction = 'right';
-    // },
-    // Carousel End
   },
 };
 </script>

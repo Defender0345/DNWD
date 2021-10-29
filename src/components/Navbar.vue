@@ -5,11 +5,11 @@
         <img :src="img" alt="DNR Logo" />
       </div>
       <div class="nav">
-        <a href="#">HOME</a>
-        <a href="#">SERVICES</a>
-        <a href="#">OUR GOAL</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">CONTACT US</a>
+        <a href="/">HOME</a>
+        <a href="/#services">SERVICES</a>
+        <a href="/#goal">OUR GOAL</a>
+        <a href="/portfolio">PORTFOLIO</a>
+        <a href="/#contact">CONTACT US</a>
       </div>
       <div class="quickcontact">
         <i class="far fa-envelope"></i>
