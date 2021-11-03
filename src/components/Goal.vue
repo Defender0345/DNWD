@@ -3,7 +3,7 @@
     <div class="content">
       <div class="left">
         <span>&lt;-- OUR GOAL --&gt;</span>
-        <h2>Providing Web Services to any all.</h2>
+        <h2>Providing web services to any and all.</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ducimus
           voluptatum accusantium corporis. Sed delectus tenetur et labore

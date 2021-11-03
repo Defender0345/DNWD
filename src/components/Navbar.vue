@@ -5,17 +5,17 @@
         <img :src="img" alt="DNR Logo" />
       </div>
       <div class="nav">
-        <a href="/">HOME</a>
+        <a href="/#hero">HOME</a>
         <a href="/#services">SERVICES</a>
         <a href="/#goal">OUR GOAL</a>
-        <a href="/portfolio">PORTFOLIO</a>
+        <router-link to="/portfolio">PORTFOLIO</router-link>
         <a href="/#contact">CONTACT US</a>
       </div>
       <div class="quickcontact">
         <i class="far fa-envelope"></i>
         <div>
           <p class="sec-text">Have a question?</p>
-          <p>dylannel02@gmail.com</p>
+          <p>testemail@test.com</p>
         </div>
       </div>
       <button class="mobilenav" @click="toggle">

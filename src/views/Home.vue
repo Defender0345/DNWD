@@ -1,13 +1,13 @@
 <template>
   <div id="home">
-    <Hero />
+    <Hero id="hero" />
     <section>
       <div class="aboutUs" :style="cssProps">
         <div class="content">
           <span>&lt;-- THIS IS DND SOFTWARE --&gt;</span>
           <h2>
-            PROVIDE WEB SERVICES FOR LARGE AND SMALL COMPANIES AT A FRACTION OF
-            THE PRICE
+            PROVIDING WEB SERVICES FOR LARGE AND SMALL COMPANIES AT A FRACTION
+            OF THE PRICE
           </h2>
         </div>
       </div>

@@ -1,9 +1,9 @@
 <template>
-   <div>
-      <Navbar class="nav" />
-      <router-view />
-      <Footer />
-   </div>
+  <div>
+    <Navbar class="nav" />
+    <router-view />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -11,11 +11,11 @@ import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
-   name: 'App',
-   components: {
-      Navbar,
-      Footer,
-   },
+  name: 'App',
+  components: {
+    Navbar,
+    Footer,
+  },
 };
 </script>
 
@@ -23,12 +23,12 @@ export default {
 @import '@/assets/_shared.scss';
 
 * {
-   margin: 0;
-   padding: 0;
-   font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-// .nav {
-//    position: fixed;
-// }
+html {
+  scroll-behavior: smooth;
+}
 </style>

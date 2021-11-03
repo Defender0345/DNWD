@@ -7,18 +7,18 @@
         <span>DIGITAL SOLUTIONS</span>
       </div>
       <div class="icons">
-        <div class="card">
+        <a href="/#services" class="card">
           <i class="fas fa-server"></i>
           <p>OUR OWN DEDICATED SERVERS</p>
-        </div>
-        <div class="card">
+        </a>
+        <a href="/#services" class="card">
           <i class="fas fa-network-wired"></i>
           <p>CONNECTING YOUR WEBSITE TO EVERYONE</p>
-        </div>
-        <div class="card">
+        </a>
+        <a href="/#services" class="card">
           <i class="fas fa-tachometer-alt"></i>
           <p>EMPHASIZING LOADING SPEED ON YOUR WEBSITE</p>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -92,6 +92,8 @@ export default {
         margin: 20px;
         height: 200px;
         width: 150px;
+        text-decoration: none;
+        color: white;
 
         &:hover {
           transition: all 0.3s linear;

@@ -31,7 +31,7 @@
         </ul>
         <div class="buttons">
           <a href="#" class="btn-light">R250 p/m</a>
-          <a href="#" class="btn-dark">Contact Us</a>
+          <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
           >&lt;-- This price is for a 1 year duration, down to R100 p/m for
@@ -61,11 +61,11 @@
             Website Domain at extra cost <br />
             (Determined by domain price)
           </li>
-          <li>Ensuring SEO Friendly</li>
+          <li>SEO Friendly</li>
         </ul>
         <div class="buttons">
-          <a href="#" class="btn-light">R2000</a>
-          <a href="#" class="btn-dark">Contact Us</a>
+          <a href="#" class="btn-light">R2000+</a>
+          <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
           >&lt;-- This is a flat price, if you would like us to host your new
@@ -74,24 +74,26 @@
       </div>
       <div class="card" :style="cssProps">
         <span class="card-text"
-          >&lt;-- Need hosting or someone to oversee your website? --&gt;</span
+          >&lt;-- Need hosting or someone to oversee and maintain your website?
+          --&gt;</span
         >
         <h3>Charlie Service</h3>
         <div class="desc">
-          <p>Monthly maintanence and updates for your website.</p>
+          <p>Monthly maintenance and updates for your website.</p>
+          <br />
           <br />
           <p>This package includes:</p>
         </div>
         <ul>
           <li>3 Changes to your website monhtly</li>
-          <li>Ensuring SEO Friendly</li>
+          <li>SEO Friendly</li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>
           <li>Mobile first design</li>
         </ul>
         <div class="buttons">
           <a href="#" class="btn-light">R100 p/m</a>
-          <a href="#" class="btn-dark">Contact Us</a>
+          <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
           >&lt;-- Flat R100 per month, no extra or hidden costs --&gt;</span
@@ -151,18 +153,16 @@ export default {
 
     .card {
       width: 400px;
-      // max-width: 25%;
       height: 700px;
       box-shadow: 5px 5px 10px rgb(70, 70, 70);
       color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      // justify-content: space-around;
       background: no-repeat center center/cover;
 
       &:hover {
-        box-shadow: 10px 10px 20px rgb(43, 42, 42);
+        transform: scale(1.02);
       }
 
       .card-text {

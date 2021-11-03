@@ -49,7 +49,7 @@ footer {
       color: $purple-100-color;
 
       &:hover {
-        font-size: 50px;
+        transform: scale(1.1);
         color: $secondary-color;
       }
     }

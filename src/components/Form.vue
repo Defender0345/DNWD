@@ -1,7 +1,7 @@
 <template>
   <div class="form-container">
     <div class="form">
-      <h2>Ready to Get Started?</h2>
+      <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
       </span>
