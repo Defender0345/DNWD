@@ -21,7 +21,7 @@
       <button class="mobilenav" @click="toggle">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="mobnavmenu" v-if="active">
+      <div class="mobnavmenu" v-if="active" aria-label="Nav Bar DropDown">
         <a @click="toggle" href="/#hero">HOME</a>
         <a @click="toggle" href="/#services">SERVICES</a>
         <a @click="toggle" href="/#goal">OUR GOAL</a>

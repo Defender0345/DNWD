@@ -4,9 +4,11 @@
       <img :src="img" alt="DNR Logo" />
     </div>
     <div class="socials">
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-facebook-square"></i></a>
-      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
+      <a href="#"
+        ><i class="fab fa-facebook-square" aria-label="Facebook"></i
+      ></a>
+      <a href="#"><i class="fab fa-twitter-square" aria-label="Twitter"></i></a>
     </div>
     <p>Copyright © 2021 DRN Software. All Rights Reserved.</p>
   </footer>

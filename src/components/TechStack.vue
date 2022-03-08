@@ -40,6 +40,8 @@ export default {
     align-items: center;
 
     img {
+      max-height: 150px;
+      max-width: 400px;
       max-height: 100%;
       max-width: 80%;
     }
