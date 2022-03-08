@@ -11,7 +11,8 @@
         <h3>Alpha Service</h3>
         <div class="desc">
           <p>
-            Get your website designed and developed with monthly maintanence.
+            Get your website designed and developed with monthly maintanence and
+            hosting.
           </p>
           <br />
           <p>This package includes:</p>
@@ -34,7 +35,7 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- This price is for a 1 year duration, down to R100 p/m for
+          >&lt;-- This price is for a 1 year duration then down to R100 p/m for
           further hosting &amp; maintanence --&gt;</span
         >
       </div>
@@ -85,7 +86,7 @@
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>3 Changes to your website monhtly</li>
+          <li>3 Changes to your website monthly</li>
           <li>SEO Friendly</li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>

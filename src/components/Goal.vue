@@ -3,14 +3,15 @@
     <div class="content">
       <div class="left">
         <span>&lt;-- OUR GOAL --&gt;</span>
-        <h2>Providing web services to any and all.</h2>
+        <h2>Providing websites to any and all.</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ducimus
-          voluptatum accusantium corporis. Sed delectus tenetur et labore
-          possimus doloremque culpa earum animi voluptatibus? Corrupti iste quam
-          itaque veritatis explicabo ipsam modi corporis dolore, obcaecati
-          tenetur voluptatum delectus! Ratione explicabo laudantium iste nulla,
-          minus unde ad laboriosam deserunt nesciunt enim.
+          Our goal is to provide fast and effective websites at an affordable
+          price. Many small and medium businesses believe that professional
+          websites are out of their reach and we here at DRN Software aim to
+          change that. You can choose between a small monthly payment or an
+          upfront payment, it's up to you. We also provide fast hosting
+          services, with Netlify accelerating loading speeds and waiting times
+          keeping Google and your Clients happy.
         </p>
       </div>
       <div class="right">
@@ -73,13 +74,14 @@ export default {
     p {
       line-height: 2em;
       letter-spacing: 3px;
+      font-size: 1.2em;
     }
   }
 
   .right {
     width: 45%;
     img {
-      width: 100%;
+      width: 80%;
     }
   }
 }
@@ -87,6 +89,24 @@ export default {
 @media (max-width: 768px) {
   .goal {
     margin-top: 0;
+
+    .right {
+      display: none;
+    }
+
+    .left {
+      width: 80%;
+
+      span {
+        display: none;
+      }
+
+      p {
+        line-height: 1.6em;
+        letter-spacing: 2px;
+        font-size: 1.2em;
+      }
+    }
   }
 }
 

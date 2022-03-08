@@ -4,11 +4,8 @@
     <section>
       <div class="aboutUs" :style="cssProps">
         <div class="content">
-          <span>&lt;-- THIS IS DND SOFTWARE --&gt;</span>
-          <h2>
-            PROVIDING WEB SERVICES FOR LARGE AND SMALL COMPANIES AT A FRACTION
-            OF THE PRICE
-          </h2>
+          <!-- <span>&lt;-- THIS IS DRN SOFTWARE --&gt;</span> -->
+          <h2>PROVIDING WEBSITES AT A FRACTION OF THE PRICE!</h2>
         </div>
       </div>
     </section>
@@ -68,12 +65,12 @@ export default {
     height: 20%;
     padding: 0 20px;
 
-    span {
-      color: $purple-400-color;
-      font-size: 0.8em;
-      font-weight: bold;
-      letter-spacing: 0.5px;
-    }
+    // span {
+    //   color: $purple-400-color;
+    //   font-size: 0.8em;
+    //   font-weight: bold;
+    //   letter-spacing: 0.5px;
+    // }
 
     h2 {
       color: black;
@@ -85,7 +82,7 @@ export default {
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1024px) {
   .aboutUs {
     display: none;
   }

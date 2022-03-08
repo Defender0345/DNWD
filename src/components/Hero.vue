@@ -3,10 +3,10 @@
     <div class="content">
       <div class="title">
         <p>&lt;-- Making websites available for everyone! --&gt;</p>
-        <span>POWERFUL &amp; AFFORDABLE</span>
+        <span>BEAUTIFUL &amp; AFFORDABLE</span>
         <span>DIGITAL SOLUTIONS</span>
       </div>
-      <div class="icons">
+      <!-- <div class="icons">
         <a href="/#services" class="card">
           <i class="fas fa-server"></i>
           <p>OUR OWN DEDICATED SERVERS</p>
@@ -19,7 +19,7 @@
           <i class="fas fa-tachometer-alt"></i>
           <p>EMPHASIZING LOADING SPEED ON YOUR WEBSITE</p>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -76,46 +76,46 @@ export default {
       }
     }
 
-    .icons {
-      display: flex;
-      width: 60vw;
-      max-width: 80%;
-      justify-content: space-around;
+    // .icons {
+    //   display: flex;
+    //   width: 60vw;
+    //   max-width: 80%;
+    //   justify-content: space-around;
 
-      .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        border: darkgray 1px solid;
-        padding: 20px;
-        margin: 20px;
-        height: 200px;
-        width: 150px;
-        text-decoration: none;
-        color: white;
+    //   .card {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-around;
+    //     align-items: center;
+    //     border: darkgray 1px solid;
+    //     padding: 20px;
+    //     margin: 20px;
+    //     height: 200px;
+    //     width: 150px;
+    //     text-decoration: none;
+    //     color: white;
 
-        &:hover {
-          transition: all 0.3s linear;
-          background-color: $primary-color;
-          border: $secondary-color 1px solid;
+    //     &:hover {
+    //       transition: all 0.3s linear;
+    //       background-color: $primary-color;
+    //       border: $secondary-color 1px solid;
 
-          i {
-            color: white;
-          }
-        }
+    //       i {
+    //         color: white;
+    //       }
+    //     }
 
-        i {
-          font-size: 50px;
-          color: $secondary-color;
-        }
+    //     i {
+    //       font-size: 50px;
+    //       color: $secondary-color;
+    //     }
 
-        p {
-          font-size: 20px;
-          font-weight: bold;
-        }
-      }
-    }
+    //     p {
+    //       font-size: 20px;
+    //       font-weight: bold;
+    //     }
+    //   }
+    // }
   }
 
   * {

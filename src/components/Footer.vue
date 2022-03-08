@@ -8,7 +8,7 @@
       <a href="#"><i class="fab fa-facebook-square"></i></a>
       <a href="#"><i class="fab fa-twitter-square"></i></a>
     </div>
-    <p>Copyright © 2021 DNR Software. All Rights Reserved.</p>
+    <p>Copyright © 2021 DRN Software. All Rights Reserved.</p>
   </footer>
 </template>
 

@@ -6,8 +6,8 @@
       </div>
       <div class="nav">
         <a href="/#hero">HOME</a>
-        <a href="/#services">SERVICES</a>
         <a href="/#goal">OUR GOAL</a>
+        <a href="/#services">SERVICES</a>
         <router-link to="/portfolio">PORTFOLIO</router-link>
         <a href="/#contact">CONTACT US</a>
       </div>
@@ -22,10 +22,10 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="mobnavmenu" v-if="active">
-        <a @click="toggle" href="/">HOME</a>
+        <a @click="toggle" href="/#hero">HOME</a>
         <a @click="toggle" href="/#services">SERVICES</a>
         <a @click="toggle" href="/#goal">OUR GOAL</a>
-        <a @click="toggle" href="/portfolio">PORTFOLIO</a>
+        <router-link @click="toggle" to="/portfolio">PORTFOLIO</router-link>
         <a @click="toggle" href="/#contact">CONTACT US</a>
       </div>
     </div>
