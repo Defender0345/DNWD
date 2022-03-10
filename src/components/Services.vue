@@ -18,9 +18,8 @@
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>Unique Design</li>
+          <li>Custom Designed</li>
           <li>Development of the website</li>
-          <li>Mobile first design</li>
           <li>Website Hosting</li>
           <li>
             Website Domain at extra cost <br />
@@ -31,7 +30,7 @@
           <li>Includes Charlie Service</li>
         </ul>
         <div class="buttons">
-          <a href="#" class="btn-light">R250 p/m</a>
+          <a href="/#contact" class="btn-light">R250 p/m</a>
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
@@ -50,14 +49,13 @@
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>Unique Design</li>
+          <li>Custom Designed</li>
           <li>
             Up to a 3 page website
             <br />
             (Additional Pages cost extra)
           </li>
           <li>Development of the website</li>
-          <li>Mobile first design</li>
           <li>
             Website Domain at extra cost <br />
             (Determined by domain price)
@@ -65,7 +63,7 @@
           <li>SEO Friendly</li>
         </ul>
         <div class="buttons">
-          <a href="#" class="btn-light">R2000+</a>
+          <a href="/#contact" class="btn-light">R2000+</a>
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
@@ -90,10 +88,9 @@
           <li>SEO Friendly</li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>
-          <li>Mobile first design</li>
         </ul>
         <div class="buttons">
-          <a href="#" class="btn-light">R100 p/m</a>
+          <a href="/#contact" class="btn-light">R100 p/m</a>
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"

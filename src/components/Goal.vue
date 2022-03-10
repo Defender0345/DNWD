@@ -9,9 +9,9 @@
           price. Many small and medium businesses believe that professional
           websites are out of their reach and we here at DRN Software aim to
           change that. You can choose between a small monthly payment or an
-          upfront payment, it's up to you. We also provide fast hosting
-          services, with Netlify accelerating loading speeds and waiting times
-          keeping Google and your Clients happy.
+          upfront payment, it's up to you. We also provide fast hosting services
+          with Netlify, accelerating loading speeds and waiting times keeping
+          Google and your Clients happy.
         </p>
       </div>
       <div class="right">

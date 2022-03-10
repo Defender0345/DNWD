@@ -3,9 +3,9 @@
     <div class="details">
       <div class="header">
         <span>&lt;-- CONTACT DETAILS --&gt;</span>
-        <h2>Contact us</h2>
+        <h2>Contact Us</h2>
         <p>
-          Send us an email or fill in the contact form anytime, we will answer
+          Send us an email or complete the contact form anytime, we will answer
           all enquiries within 24 hours on business days. We will be happy to
           answer your questions.
         </p>

@@ -3,36 +3,34 @@
     <div class="devider"></div>
     <div class="flex">
       <div class="img">
-        <a href="#">
+        <a href="https://leposhhair.com">
           <img :src="img[0]" alt="" />
         </a>
       </div>
       <div class="test">
-        <h2>Lorem Ipsum</h2>
+        <h2>LePosh Hair Design</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum
-          laboriosam facere debitis tenetur iure facilis velit in? Eaque earum
-          officiis necessitatibus adipisci ab, nobis ullam voluptatem nemo
-          distinctio aut magnam, ad provident reiciendis delectus similique
-          voluptatibus esse ipsum tempora placeat suscipit? Ea minima similique,
-          cum nam accusantium architecto eius?
+          Designed and developed by DRN Software with client feedback. DRN
+          Software is also hosting and maintaining this website with price
+          updates and austhetic updates to keep the website current. SSL
+          Certificate has also been added to the website.
         </p>
       </div>
     </div>
     <div class="flex">
       <div class="test">
-        <h2>Lorem Ipsum</h2>
+        <h2>Voortrekker Park Homeowners Association</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum
-          laboriosam facere debitis tenetur iure facilis velit in? Eaque earum
-          officiis necessitatibus adipisci ab, nobis ullam voluptatem nemo
-          distinctio aut magnam, ad provident reiciendis delectus similique
-          voluptatibus esse ipsum tempora placeat suscipit? Ea minima similique,
-          cum nam accusantium architecto eius?
+          Designed and developed by DRN Software with client feedback. DRN
+          Software is also hosting and maintaining this website. This website is
+          a functional website that shows the documentation for Voortrekker Park
+          including the rules, policies and quarterly news updates in pdf format
+          as requested by the clients. SSL Certificate has also been added to
+          the website.
         </p>
       </div>
       <div class="img">
-        <a href="#">
+        <a href="https://vphomeowners.com/">
           <img :src="img[1]" alt="" />
         </a>
       </div>
@@ -44,14 +42,13 @@
         </a>
       </div>
       <div class="test">
-        <h2>Lorem Ipsum</h2>
+        <h2>Wolfie Art Studios</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum
-          laboriosam facere debitis tenetur iure facilis velit in? Eaque earum
-          officiis necessitatibus adipisci ab, nobis ullam voluptatem nemo
-          distinctio aut magnam, ad provident reiciendis delectus similique
-          voluptatibus esse ipsum tempora placeat suscipit? Ea minima similique,
-          cum nam accusantium architecto eius?
+          Working in close collabiration with the artist with a design they
+          provided. DRN Software is also hosting and maintaining this website.
+          This website is designed to be a portfolio website showcasing Wolfie
+          Art Studios arts and works. SSL Certificate has also been added to the
+          website.
         </p>
       </div>
     </div>
@@ -80,7 +77,7 @@ export default {
 @import '@/assets/_shared.scss';
 
 .portfolio {
-  background: #d8d5e6;
+  background: #8982b21e;
   width: 100%;
   .devider {
     height: 150px;
