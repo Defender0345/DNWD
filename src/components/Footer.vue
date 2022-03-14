@@ -8,7 +8,6 @@
       <a href="#"
         ><i class="fab fa-facebook-square" aria-label="Facebook"></i
       ></a>
-      <a href="#"><i class="fab fa-twitter-square" aria-label="Twitter"></i></a>
     </div>
     <p>Copyright © 2021 DRN Software. All Rights Reserved.</p>
   </footer>
@@ -36,7 +35,7 @@ footer {
   justify-content: center;
   align-items: center;
   background: $accent-color;
-  height: 30vh;
+  height: 100%;
   padding: 2em 0 0 0;
 
   .socials {

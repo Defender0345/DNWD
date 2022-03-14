@@ -7,7 +7,7 @@
           <img :src="img[0]" alt="" />
         </a>
       </div>
-      <div class="test">
+      <div class="content">
         <h2>LePosh Hair Design</h2>
         <p>
           Designed and developed by DRN Software with client feedback. DRN
@@ -17,8 +17,8 @@
         </p>
       </div>
     </div>
-    <div class="flex">
-      <div class="test">
+    <div class="flex flex-right">
+      <div class="content">
         <h2>Voortrekker Park Homeowners Association</h2>
         <p>
           Designed and developed by DRN Software with client feedback. DRN
@@ -41,7 +41,7 @@
           <img :src="img[2]" alt="" />
         </a>
       </div>
-      <div class="test">
+      <div class="content">
         <h2>Wolfie Art Studios</h2>
         <p>
           Working in close collabiration with the artist with a design they
@@ -106,7 +106,7 @@ export default {
       }
     }
 
-    .test {
+    .content {
       display: flex;
       flex-direction: column;
       width: 50%;
@@ -133,7 +133,7 @@ export default {
 @media (max-width: 1024px) {
   .portfolio {
     .flex {
-      .test {
+      .content {
         h2 {
           font-size: 1.5em;
         }
@@ -142,6 +142,26 @@ export default {
           font-size: 00.8em;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+    .flex {
+      flex-direction: column;
+      padding: 0;
+      .img {
+        width: 100%;
+      }
+
+      .content {
+        width: 100%;
+      }
+    }
+
+    .flex-right {
+      flex-direction: column-reverse;
     }
   }
 }
