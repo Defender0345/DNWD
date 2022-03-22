@@ -15,7 +15,7 @@
         <i class="far fa-envelope"></i>
         <div>
           <p class="sec-text">Have a question?</p>
-          <p>testemail@test.com</p>
+          <p>dylan@drnsoftware.com</p>
         </div>
       </div>
       <button class="mobilenav" @click="toggle">

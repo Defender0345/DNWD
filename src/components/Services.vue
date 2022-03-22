@@ -19,6 +19,7 @@
         </div>
         <ul>
           <li>Custom Designed</li>
+          <li>Mobile first design</li>
           <li>Development of the website</li>
           <li>Website Hosting</li>
           <li>
@@ -50,6 +51,7 @@
         </div>
         <ul>
           <li>Custom Designed</li>
+          <li>Mobile first design</li>
           <li>
             Up to a 3 page website
             <br />
@@ -67,8 +69,8 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- This is a flat price, if you would like us to host your new
-          website take a look at Charlie Service --&gt;</span
+          >&lt;-- If you would like us to host your new website take a look at
+          Charlie Service --&gt;</span
         >
       </div>
       <div class="card" :style="cssProps">
@@ -84,7 +86,7 @@
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>3 Changes to your website monthly</li>
+          <li>3 Minor Changes to your website monthly</li>
           <li>SEO Friendly</li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>
@@ -94,7 +96,8 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- Flat R100 per month, no extra or hidden costs --&gt;</span
+          >&lt;-- Flat R100 per month, no extra or hidden costs. Major changes
+          subject to quotation --&gt;</span
         >
       </div>
     </div>

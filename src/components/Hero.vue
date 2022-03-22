@@ -3,7 +3,7 @@
     <div class="content">
       <div class="title">
         <p>&lt;-- Making websites available for everyone! --&gt;</p>
-        <span>BEAUTIFUL &amp; AFFORDABLE</span>
+        <span>PROFESSIONAL &amp; AFFORDABLE</span>
         <span>WEB SOLUTIONS</span>
       </div>
       <!-- <div class="icons">

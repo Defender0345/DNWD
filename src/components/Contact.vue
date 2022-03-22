@@ -22,7 +22,7 @@
           <i class="far fa-envelope"></i>
           <div>
             <p class="heading">Our Mailbox:</p>
-            <p class="address">testemail@test.com</p>
+            <p class="address">dylan@drnsoftware.com</p>
           </div>
         </div>
       </div>
