@@ -1,6 +1,7 @@
 <template>
   <div class="form-container">
     <form name="contact" netlify method="POST" data-netlify="true" class="form">
+      <input type="hidden" name="form-name" value="contact" />
       <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
