@@ -1,18 +1,34 @@
 <template>
   <div class="form-container">
-    <div class="form">
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      action="/pages/success"
+      class="form"
+    >
       <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
       </span>
       <p>
-        <input type="text" placeholder="Your name..*" v-model="state.name" />
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name..*"
+          v-model="state.name"
+        />
         <span class="error" v-if="v$.name.$error">
           {{ v$.name.$errors[0].$message }}
         </span>
       </p>
       <p>
-        <input type="text" placeholder="Your email..*" v-model="state.email" />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email..*"
+          v-model="state.email"
+        />
         <span class="error" v-if="v$.email.$error">
           {{ v$.email.$errors[0].$message }}
         </span>
@@ -27,8 +43,8 @@
           v-model="state.message"
         ></textarea>
       </p>
-      <button @click="submitForm">SEND MESSAGE</button>
-    </div>
+      <button type="submit" @click="submitForm">SEND MESSAGE</button>
+    </form>
   </div>
 </template>
 
