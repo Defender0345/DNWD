@@ -1,12 +1,6 @@
 <template>
   <div class="form-container">
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      action="/pages/success"
-      class="form"
-    >
+    <form name="contact" method="POST" data-netlify="true" class="form">
       <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
@@ -43,6 +37,9 @@
           v-model="state.message"
         ></textarea>
       </p>
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
       <button type="submit" @click="submitForm">SEND MESSAGE</button>
     </form>
   </div>
