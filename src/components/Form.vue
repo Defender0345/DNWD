@@ -1,7 +1,13 @@
 <template>
   <div class="form-container">
-    <form name="contact" netlify method="POST" data-netlify="true" class="form">
-      <input type="hidden" name="form-name" value="contact" />
+    <form
+      name="ask-question"
+      netlify
+      method="post"
+      data-netlify-honeypot="bot-field"
+      class="form"
+    >
+      <input type="hidden" name="form-name" value="ask-question" />
       <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
