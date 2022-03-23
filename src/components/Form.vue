@@ -1,11 +1,11 @@
 <template>
   <div class="form-container">
-    <form name="contact" netlify class="form">
+    <form name="contact" netlify method="POST" data-netlify="true" class="form">
       <h2>Every inquiry is welcomed</h2>
       <span>
         Your email address will not be published. Required fields are marked *
       </span>
-      <p>
+      <label>
         <input
           type="text"
           name="name"
@@ -15,8 +15,8 @@
         <span class="error" v-if="v$.name.$error">
           {{ v$.name.$errors[0].$message }}
         </span>
-      </p>
-      <p>
+      </label>
+      <label>
         <input
           type="email"
           name="email"
@@ -26,8 +26,8 @@
         <span class="error" v-if="v$.email.$error">
           {{ v$.email.$errors[0].$message }}
         </span>
-      </p>
-      <p>
+      </label>
+      <label>
         <textarea
           name="message"
           id=""
@@ -36,10 +36,7 @@
           placeholder="Your message.."
           v-model="state.message"
         ></textarea>
-      </p>
-      <div class="field">
-        <div data-netlify-recaptcha="true"></div>
-      </div>
+      </label>
       <button type="submit" @click="submitForm">SEND MESSAGE</button>
     </form>
   </div>
@@ -122,7 +119,7 @@ export default {
       margin: 0 0 20px 0;
     }
 
-    p {
+    label {
       align-self: left;
       width: 100%;
       margin: 10px 0;
