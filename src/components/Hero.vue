@@ -4,7 +4,7 @@
       <div class="title">
         <p>&lt;-- Making websites available for everyone! --&gt;</p>
         <span>PROFESSIONAL &amp; AFFORDABLE</span>
-        <span>WEB SOLUTIONS</span>
+        <span>WEBSITES</span>
       </div>
       <!-- <div class="icons">
         <a href="/#services" class="card">

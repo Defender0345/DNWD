@@ -96,7 +96,7 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- Flat R100 per month, no extra or hidden costs. Major changes
+          >&lt;-- R100 per month, no extra or hidden costs. Major changes are
           subject to quotation --&gt;</span
         >
       </div>
