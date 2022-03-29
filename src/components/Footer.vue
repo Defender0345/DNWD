@@ -4,8 +4,10 @@
       <img :src="img" alt="DNR Logo" />
     </div>
     <div class="socials">
-      <a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
-      <a href="#"
+      <a href="https://www.linkedin.com/in/dylan-nel-36582114b/"
+        ><i class="fab fa-linkedin" aria-label="LinkedIn"></i
+      ></a>
+      <a href="https://www.facebook.com/DRNSoftware"
         ><i class="fab fa-facebook-square" aria-label="Facebook"></i
       ></a>
     </div>
