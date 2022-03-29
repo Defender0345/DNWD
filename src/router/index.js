@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Portfolio from '../views/Portfolio.vue';
+import TermsAndConditions from '../views/TermsAndConditions.vue';
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/portfolio',
     name: 'Portfolio',
     component: Portfolio,
+  },
+  {
+    path: '/termsAndConditions',
+    name: 'TermsAndConditions',
+    component: TermsAndConditions,
   },
 ];
 

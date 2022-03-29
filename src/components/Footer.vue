@@ -9,6 +9,7 @@
         ><i class="fab fa-facebook-square" aria-label="Facebook"></i
       ></a>
     </div>
+    <a href="/termsAndConditions">Terms And Conditions</a>
     <p>Copyright © 2021 DRN Software. All Rights Reserved.</p>
   </footer>
 </template>
@@ -54,6 +55,11 @@ footer {
         color: $secondary-color;
       }
     }
+  }
+
+  a {
+    font-size: 1.2em;
+    color: white;
   }
 
   p {
