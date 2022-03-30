@@ -3,7 +3,11 @@
     <div class="devider"></div>
     <div class="flex">
       <div class="img">
-        <a href="https://leposhhair.com">
+        <a
+          href="https://leposhhair.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img :src="img[0]" alt="" />
         </a>
       </div>
@@ -30,14 +34,22 @@
         </p>
       </div>
       <div class="img">
-        <a href="https://vphomeowners.com/">
+        <a
+          href="https://vphomeowners.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img :src="img[1]" alt="" />
         </a>
       </div>
     </div>
     <div class="flex">
       <div class="img">
-        <a href="#">
+        <a
+          href="https://pedantic-goldstine-ec07df.netlify.app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img :src="img[2]" alt="" />
         </a>
       </div>
