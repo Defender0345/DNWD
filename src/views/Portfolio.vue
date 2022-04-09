@@ -16,7 +16,7 @@
         <p>
           Designed and developed by DRN Software with client feedback. DRN
           Software is also hosting and maintaining this website with price
-          updates and austhetic updates to keep the website current. SSL
+          updates and aesthetic updates to keep the website current. SSL
           Certificate has also been added to the website.
         </p>
       </div>
@@ -56,7 +56,7 @@
       <div class="content">
         <h2>Wolfie Art Studios</h2>
         <p>
-          Working in close collabiration with the artist with a design they
+          Working in close collaboration with the artist with a design they
           provided. DRN Software is also hosting and maintaining this website.
           This website is designed to be a portfolio website showcasing Wolfie
           Art Studios arts and works. SSL Certificate has also been added to the
