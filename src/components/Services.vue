@@ -11,15 +11,15 @@
         <h3>Alpha Service</h3>
         <div class="desc">
           <p>
-            Get your website designed and developed with monthly maintanence and
+            Get your website designed and developed with monthly maintenance and
             hosting.
           </p>
           <br />
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>Custom Designed</li>
-          <li>Mobile first design</li>
+          <li>Custom Designed Website</li>
+          <li>Mobile first</li>
           <li>Development of the website</li>
           <li>Website Hosting</li>
           <li>
@@ -36,7 +36,7 @@
         </div>
         <span class="card-text"
           >&lt;-- This price is for a 1 year duration then down to R100 p/m for
-          further hosting &amp; maintanence --&gt;</span
+          further hosting &amp; maintenance --&gt;</span
         >
       </div>
       <div class="card" :style="cssProps">
@@ -50,8 +50,8 @@
           <p>This package includes:</p>
         </div>
         <ul>
-          <li>Custom Designed</li>
-          <li>Mobile first design</li>
+          <li>Custom Designed Website</li>
+          <li>Mobile first</li>
           <li>
             Up to a 3 page website
             <br />
@@ -101,6 +101,7 @@
         >
       </div>
     </div>
+    <h2>All services come with complimentary basic SEO.</h2>
   </div>
 </template>
 
@@ -142,7 +143,7 @@ export default {
     font-size: 2em;
     font-weight: bold;
     letter-spacing: 0.5px;
-    margin: 0 0 2em 0;
+    margin: 1.5em 0;
   }
 
   .cards {
