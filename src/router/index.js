@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Portfolio from '../views/Portfolio.vue';
 import TermsAndConditions from '../views/TermsAndConditions.vue';
+import Glossary from '../views/Glossary.vue';
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/termsAndConditions',
     name: 'TermsAndConditions',
     component: TermsAndConditions,
+  },
+  {
+    path: '/glossary',
+    name: 'Glossary',
+    component: Glossary,
   },
 ];
 

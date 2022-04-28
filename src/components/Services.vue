@@ -20,14 +20,14 @@
         <ul>
           <li>Custom Designed Website</li>
           <li>Mobile first</li>
-          <li>Development of the website</li>
           <li>Website Hosting</li>
           <li>
             Website Domain at extra cost <br />
-            (Determined by domain price)
+            (Determined by domain price per annum)
           </li>
           <li>SEO Friendly</li>
           <li>SSL Certificate included</li>
+          <li>Monthly Google Analytics Report</li>
           <li>Includes Charlie Service</li>
         </ul>
         <div class="buttons">
@@ -57,10 +57,9 @@
             <br />
             (Additional Pages cost extra)
           </li>
-          <li>Development of the website</li>
           <li>
             Website Domain at extra cost <br />
-            (Determined by domain price)
+            (Determined by domain price per annum)
           </li>
           <li>SEO Friendly</li>
         </ul>
@@ -90,6 +89,7 @@
           <li>SEO Friendly</li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>
+          <li>Monthly Google Analytics Report</li>
         </ul>
         <div class="buttons">
           <a href="/#contact" class="btn-light">R100 p/m</a>
@@ -101,7 +101,7 @@
         >
       </div>
     </div>
-    <h2>All services come with complimentary basic SEO.</h2>
+    <a class="link" href="/glossary"> Glossary of Terms </a>
   </div>
 </template>
 
@@ -144,6 +144,25 @@ export default {
     font-weight: bold;
     letter-spacing: 0.5px;
     margin: 1.5em 0;
+  }
+
+  .link {
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1em;
+    background: white;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(70, 70, 70);
+
+    &:hover {
+      transition: all 0.3s linear;
+      background: $primary-color;
+      color: white;
+      box-shadow: 8px 8px 15px rgb(70, 70, 70);
+    }
   }
 
   .cards {
