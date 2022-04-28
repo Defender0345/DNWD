@@ -59,7 +59,7 @@ export default {
 nav {
   position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
   align-items: center;
