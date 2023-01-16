@@ -1,5 +1,6 @@
 <template>
   <section id="terms">
+    <div class="devider"></div>
     <div class="header">
       <h1>Terms &amp; Conditions</h1>
     </div>
@@ -20,6 +21,12 @@ section {
   width: 100vw;
   display: flex;
   flex-direction: column;
+
+  .devider {
+    height: 150px;
+    width: 100%;
+  }
+
   .header {
     position: absolute;
     top: 100px;

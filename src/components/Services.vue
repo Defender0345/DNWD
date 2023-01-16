@@ -36,7 +36,8 @@
         </div>
         <span class="card-text"
           >&lt;-- This price is for a 1 year duration then down to R100 p/m for
-          further hosting &amp; maintenance --&gt;</span
+          further hosting &amp; maintenance (Excluding Websites with Back-Ends)
+          --&gt;</span
         >
       </div>
       <div class="card" :style="cssProps">
@@ -174,7 +175,7 @@ export default {
 
     .card {
       width: 400px;
-      height: 700px;
+      height: 750px;
       box-shadow: 5px 5px 10px rgb(70, 70, 70);
       color: white;
       display: flex;
