@@ -4,7 +4,7 @@
     <div class="flex">
       <div class="img">
         <a
-          href="https://leposhhair.com"
+          href="https://jolly-kowalevski-ffc3de.netlify.app/"
           target="_blank"
           rel="noreferrer noopener"
         >
