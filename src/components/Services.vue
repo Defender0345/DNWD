@@ -5,8 +5,8 @@
     <div class="cards">
       <div class="card" :style="cssProps">
         <span class="card-text"
-          >&lt;-- Don't want to pay a large sum upfront for a website?
-          --&gt;</span
+          >Enjoy the flexibility of paying just 50% upfront, followed by
+          convenient monthly payments over a 1-year duration</span
         >
         <h3>Alpha Service</h3>
         <div class="desc">
@@ -28,16 +28,17 @@
           <li>SEO Friendly</li>
           <li>SSL Certificate included</li>
           <li>Monthly Google Analytics Report</li>
-          <li>Includes Charlie Service</li>
         </ul>
         <div class="buttons">
-          <a href="/#contact" class="btn-light">R250 p/m</a>
+          <a href="/#contact" class="btn-light"
+            >Remaining balance <br />
+            over 12 months</a
+          >
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- This price is for a 1 year duration then down to R100 p/m for
-          further hosting &amp; maintenance (Excluding Websites with Back-Ends)
-          --&gt;</span
+          >&lt;-- This price is for a 1 year duration then down to R200 p/m for
+          further hosting &amp; maintenance --&gt;</span
         >
       </div>
       <div class="card" :style="cssProps">
@@ -54,7 +55,7 @@
           <li>Custom Designed Website</li>
           <li>Mobile first</li>
           <li>
-            Up to a 3 page website
+            Up to a 2 page website
             <br />
             (Additional Pages cost extra)
           </li>
@@ -65,7 +66,7 @@
           <li>SEO Friendly</li>
         </ul>
         <div class="buttons">
-          <a href="/#contact" class="btn-light">R2000+</a>
+          <a href="/#contact" class="btn-light">FROM R1500</a>
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
@@ -87,17 +88,23 @@
         </div>
         <ul>
           <li>3 Minor Changes to your website monthly</li>
-          <li>SEO Friendly</li>
+          <li>
+            SEO Friendly<br />
+            (At an additional charge)
+          </li>
           <li>SSL Certificate</li>
           <li>Website Hosting</li>
-          <li>Monthly Google Analytics Report</li>
+          <li>
+            Monthly Google Analytics Report<br />
+            (At an additional charge)
+          </li>
         </ul>
         <div class="buttons">
-          <a href="/#contact" class="btn-light">R100 p/m</a>
+          <a href="/#contact" class="btn-light">R200 p/m</a>
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- R100 per month, no extra or hidden costs. Major changes are
+          >&lt;-- R200 per month, no extra or hidden costs. Major changes are
           subject to quotation --&gt;</span
         >
       </div>
@@ -236,7 +243,7 @@ export default {
         a {
           text-decoration: none;
           padding: 0.7em 1em;
-          font-size: 25px;
+          font-size: 20px;
 
           &:hover {
             color: white;

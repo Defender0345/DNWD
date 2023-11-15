@@ -15,14 +15,15 @@
           <i class="fas fa-globe-africa"></i>
           <div>
             <p class="heading">Our Address:</p>
-            <p class="address">Strand, Cape Town, Western Cape</p>
+            <p class="address">Cape Town, Western Cape</p>
+            <p class="address">Johannesburg, Gauteng</p>
           </div>
         </div>
         <div class="card">
           <i class="far fa-envelope"></i>
           <div>
             <p class="heading">Our Mailbox:</p>
-            <p class="address">dylan@drnsoftware.com</p>
+            <p class="address">admin@drnsoftware.com</p>
           </div>
         </div>
       </div>
