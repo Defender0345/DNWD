@@ -37,14 +37,12 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- This price is for a 1 year duration then down to R200 p/m for
-          further hosting &amp; maintenance --&gt;</span
+          >This price is for a 1 year duration then down to R200 p/m for further
+          hosting &amp; maintenance</span
         >
       </div>
       <div class="card" :style="cssProps">
-        <span class="card-text"
-          >&lt;-- Just looking for a new website? --&gt;</span
-        >
+        <span class="card-text">Just looking for a new website?</span>
         <h3>Bravo Service</h3>
         <div class="desc">
           <p>Get your website designed and developed at no additional cost.</p>
@@ -70,15 +68,14 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- If you would like us to host your new website take a look at
-          Charlie Service --&gt;</span
+          >If you would like us to host your new website take a look at Charlie
+          Service</span
         >
       </div>
       <div class="card" :style="cssProps">
         <span class="card-text"
-          >&lt;-- Need hosting or someone to oversee and maintain your website?
-          --&gt;</span
-        >
+          >Need hosting or someone to oversee and maintain your website?
+        </span>
         <h3>Charlie Service</h3>
         <div class="desc">
           <p>Monthly maintenance and updates for your website.</p>
@@ -104,8 +101,8 @@
           <a href="/#contact" class="btn-dark">Contact Us</a>
         </div>
         <span class="card-text"
-          >&lt;-- R200 per month, no extra or hidden costs. Major changes are
-          subject to quotation --&gt;</span
+          >R200 per month, no extra or hidden costs. Major changes are subject
+          to quotation</span
         >
       </div>
     </div>
@@ -175,14 +172,14 @@ export default {
 
   .cards {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    width: 100%;
     flex-wrap: wrap;
 
     .card {
-      width: 400px;
+      max-width: 400px;
+      min-width: 300px;
       height: 750px;
+      margin: 1em;
       box-shadow: 5px 5px 10px rgb(70, 70, 70);
       color: white;
       display: flex;
@@ -200,12 +197,13 @@ export default {
         font-size: 0.8em;
         letter-spacing: 3px;
         padding: 1em 0;
-        height: 50px;
+        height: 8%;
       }
 
       h3 {
-        font-size: 30px;
+        font-size: 24px;
         padding: 0 0 0.5em 0;
+        height: 8%;
       }
 
       .desc {
@@ -216,18 +214,19 @@ export default {
         letter-spacing: 3px;
         width: 80%;
         padding: 0 0 1em 0;
-        height: 100px;
+        height: 16%;
       }
 
       ul {
         list-style-type: none;
         line-height: 2em;
-        height: 300px;
+        padding: 0;
+        height: 40%;
 
         li {
           &::before {
             content: '//';
-            margin-right: 20px;
+            margin-right: 0.5em;
             color: $secondary-color;
           }
         }
@@ -238,12 +237,13 @@ export default {
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        padding: 1em 0 1em 0;
+        padding: 1em 0;
+        height: 20%;
 
         a {
           text-decoration: none;
           padding: 0.7em 1em;
-          font-size: 20px;
+          font-size: 18px;
 
           &:hover {
             color: white;
@@ -254,6 +254,7 @@ export default {
         .btn-light {
           color: white;
           background-color: $primary-color;
+          margin-bottom: 0.5em;
         }
 
         .btn-dark {
@@ -269,12 +270,11 @@ export default {
   .services {
     .cards {
       .card {
-        height: 750px;
         margin: 1em;
 
         .buttons {
           a {
-            padding: 0.7em 1em;
+            padding: 0.5em 1em;
           }
         }
       }
