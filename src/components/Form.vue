@@ -1,6 +1,6 @@
 <template>
   <div class="form-container">
-    <form
+    <!-- <form
       name="ask-question"
       netlify
       method="post"
@@ -45,6 +45,58 @@
         ></textarea>
       </label>
       <button type="submit" @click="submitForm">SEND MESSAGE</button>
+    </form> -->
+    <form name="ask-question" method="POST" data-netlify="true" class="form">
+      <input
+        type="hidden"
+        name="subject"
+        data-remove-prefix
+        value="DRNSoftware Website Form Submission (%{submissionId})"
+      />
+      <input type="hidden" name="form-name" value="ask-question" />
+      <!-- Honeypot field -->
+      <div style="display: none">
+        <label>
+          Don’t fill this out if you're human:
+          <input name="bot-field" />
+        </label>
+      </div>
+      <!-- Your form fields -->
+      <label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name..*"
+          v-model="state.name"
+          required
+        />
+        <span class="error" v-if="v$.name?.$error">
+          {{ v$.name.$errors[0].$message }}
+        </span>
+      </label>
+      <label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email..*"
+          v-model="state.email"
+          required
+        />
+        <span class="error" v-if="v$.email?.$error">
+          {{ v$.email.$errors[0].$message }}
+        </span>
+      </label>
+      <label>
+        <textarea
+          name="message"
+          placeholder="Your message.."
+          v-model="state.message"
+          id=""
+          cols="5"
+          rows="10"
+        ></textarea>
+      </label>
+      <button type="submit">SEND MESSAGE</button>
     </form>
   </div>
 </template>
@@ -99,8 +151,95 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/_shared.scss';
 
+// .form-container {
+//   background-image: linear-gradient(90deg, #00deff 0%, #7141b1 100%);
+//   width: 45%;
+//   padding: 2em;
+
+//   .form {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+
+//     h2 {
+//       color: white;
+//       font-size: 2em;
+//       font-weight: bold;
+//       letter-spacing: 0.5px;
+//       margin: 20px auto;
+//     }
+
+//     span {
+//       text-align: center;
+//       color: white;
+//       font-size: 1em;
+//       font-weight: bold;
+//       letter-spacing: 0.5px;
+//       margin: 0 0 20px 0;
+//     }
+
+//     label {
+//       align-self: left;
+//       width: 100%;
+//       margin: 10px 0;
+
+//       input,
+//       textarea {
+//         padding: 10px 2.5%;
+//         width: 95%;
+//       }
+
+//       input {
+//         background: rgba(255, 255, 255, 0.3);
+//         border: none;
+
+//         &::placeholder {
+//           color: white;
+//         }
+//       }
+
+//       .error {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin: 5px 0;
+//         color: red;
+//       }
+
+//       textarea {
+//         background: rgba(255, 255, 255, 0.3);
+//         border: none;
+
+//         &::placeholder {
+//           color: white;
+//         }
+//       }
+//     }
+
+//     button {
+//       width: 25%;
+//       color: black;
+//       background: white;
+//       padding: 1em 2em;
+//       border: none;
+//       cursor: pointer;
+//       font-weight: bold;
+
+//       &:hover {
+//         transition: all 0.3s linear;
+//         background: $primary-color;
+//         color: white;
+//       }
+//     }
+//   }
+// }
+
 .form-container {
-  background-image: linear-gradient(90deg, #00deff 0%, #7141b1 100%);
+  background-image: linear-gradient(
+    90deg,
+    $primary-gradient-start 0%,
+    $primary-gradient-end 100%
+  );
   width: 45%;
   padding: 2em;
 
@@ -110,7 +249,7 @@ export default {
     justify-content: flex-start;
 
     h2 {
-      color: white;
+      color: $primary-form-color;
       font-size: 2em;
       font-weight: bold;
       letter-spacing: 0.5px;
@@ -119,7 +258,7 @@ export default {
 
     span {
       text-align: center;
-      color: white;
+      color: $primary-form-color;
       font-size: 1em;
       font-weight: bold;
       letter-spacing: 0.5px;
@@ -135,14 +274,11 @@ export default {
       textarea {
         padding: 10px 2.5%;
         width: 95%;
-      }
-
-      input {
-        background: rgba(255, 255, 255, 0.3);
+        background: $form-background;
         border: none;
 
         &::placeholder {
-          color: white;
+          color: $primary-form-color;
         }
       }
 
@@ -153,29 +289,20 @@ export default {
         margin: 5px 0;
         color: red;
       }
-
-      textarea {
-        background: rgba(255, 255, 255, 0.3);
-        border: none;
-
-        &::placeholder {
-          color: white;
-        }
-      }
     }
 
     button {
       width: 25%;
       color: black;
-      background: white;
+      background: $primary-form-color;
       padding: 1em 2em;
       border: none;
       cursor: pointer;
       font-weight: bold;
+      transition: all 0.3s linear;
 
       &:hover {
-        transition: all 0.3s linear;
-        background: $primary-color;
+        background: $primary-gradient-start;
         color: white;
       }
     }
@@ -183,22 +310,14 @@ export default {
 }
 
 @media (max-width: 1024px) {
-  .form-container {
-    .form {
-      button {
-        width: 30%;
-      }
-    }
+  .form-container .form button {
+    width: 30%;
   }
 }
 
 @media (max-width: 500px) {
-  .form-container {
-    .form {
-      button {
-        width: 50%;
-      }
-    }
+  .form-container .form button {
+    width: 50%;
   }
 }
 </style>
